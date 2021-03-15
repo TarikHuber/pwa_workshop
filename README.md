@@ -11,7 +11,7 @@ Every lesson is in a separate folder.
 2. Install `serve` with this command: `npm i -g serve`
 
 
-### Staring an example
+### Starting an example
 
 To start an example open your `console` and go to the example folder. There run this command: `serve`. You can view the example unter the link `localhost:5000`.
 
