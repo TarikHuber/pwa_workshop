@@ -9,6 +9,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   console.log("[ServiceWorker] Fetch", event.request.url);
 
+  // Don't do this in real apps!
   event.respondWith(
     (async function () {
       return fetch(event.request.url);
