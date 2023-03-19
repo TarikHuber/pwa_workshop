@@ -13,6 +13,8 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     (async function () {
       return fetch(event.request.url);
+
+      //return fetch("/test.html");
     })()
   );
 });
