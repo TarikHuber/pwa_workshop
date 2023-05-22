@@ -33,3 +33,6 @@ For a custom port run like 3000: `serve -p 3000`. In that case you can view the 
 ## Updates 2021
 
 1. https://developer.chrome.com/blog/improved-pwa-offline-detection/
+
+## Update 2923
+1. https://web.dev/learn/pwa/
